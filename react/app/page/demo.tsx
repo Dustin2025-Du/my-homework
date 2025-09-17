@@ -1,5 +1,6 @@
-import { useState, useEffect,useMemo } from 'react';
+import { useState, useEffect,useMemo, createRef,useRef } from 'react';
 import styles from './demo.module.css'
+import Child from './component/child'
 let count: number = 1;
 export default function Demo() {
   const [index, setIndex] = useState(0);
@@ -92,7 +93,9 @@ export default function Demo() {
   const computerMsg = useMemo(()=>{
     return `${user.name}${index}`
   },[index,user])
-   
+
+  const dom:any =useRef("");
+  console.log(dom)
   return (
     <>
       <div>useState使用:{index} &nbsp;&nbsp;&nbsp;<span onClick={onClick}>操作</span></div>
@@ -109,6 +112,9 @@ export default function Demo() {
         <div>显示的数据{JSON.stringify(userInfo)}</div>
         <div>模拟计算属性{computerMsg}</div>
       </div>
+      <Child index={index} setIndex={setIndex}/>
+
+      <div ref={dom}>获取dom</div>
     </>
   );
 }
