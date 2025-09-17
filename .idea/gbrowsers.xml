@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GBrowserService"><![CDATA[{
+  "history": [
+    {
+      "name": "GBrowser - IntelliJ IDEs Plugin | Marketplace",
+      "url": "https://plugins.jetbrains.com/plugin/14458-gbrowser"
+    },
+    {
+      "name": "Vite + React + TS",
+      "url": "http://localhost:5173/"
+    },
+    {
+      "name": "百度一下，你就知道",
+      "url": "https://www.baidu.com/"
+    },
+    {
+      "name": "Vite + React + TS",
+      "url": "http://localhost:5173/list"
+    },
+    {
+      "name": "Vite + React + TS",
+      "url": "http://localhost:5173/detail"
+    },
+    {
+      "name": "Vite + React + TS",
+      "url": "http://localhost:5173/add"
+    }
+  ]
+}]]></component>
+</project>
