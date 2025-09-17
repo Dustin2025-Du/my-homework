@@ -24,7 +24,6 @@ if(root){
                     <Route path="/login" element={<Login />} />
                     <Route path="/edit/:id" element={<Edit />} />
                     <Route path="/detail/:id" element={<Detail />} />
-
                 </Routes>
             </BrowserRouter>
         </Provider>,
